@@ -1,0 +1,125 @@
+/* =======ABOUT========= */
+.about-wraper {
+    position: relative;
+    overflow: visible;
+    max-width: 335px;
+    border-radius: 24px;
+    background: #FBFBFB;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 40px 20px 335px 20px;
+}
+
+.about-discription {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-title {
+    color: #1B414B;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+}
+
+.about-text-first {
+    color: #1B414B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+}
+
+.about-text-second {
+    color: #040306;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+
+.about-picture {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100px);
+}
+
+/* =======ABOUT-TABLET========= */
+@media screen and (min-width: 768px) {
+    .about-wraper {
+        max-width: 704px;
+        height: 675px;
+        margin-bottom: 276px;
+        padding: 50px 136px 244px 32px;
+
+    }
+
+    .about-discription {
+        gap: 50px;
+    }
+
+    .about-title {
+        max-width: 536px;
+        font-size: 48px;
+    }
+
+    .about-text {
+        max-width: 389px;
+    }
+
+    .about-text-first {
+        font-size: 23px;
+    }
+
+    .about-text-second {
+        font-size: 13px;
+        line-height: 1.15;
+    }
+
+    .about-picture {
+        transform: translateY(276px);
+    }
+}
+
+/* =======/ABOUT-TABLET========= */
+
+/* =======ABOUT-DESKTOP========= */
+@media screen and (min-width: 1280px) {
+    .about-wraper {
+        max-width: 1180px;
+        margin-bottom: 155px;
+        padding: 50px 50px 415px 50px;
+
+    }
+
+    .about-discription {
+        flex-direction: row;
+        gap: 189px;
+    }
+
+    .about-title {
+        max-width: 537px;
+    }
+
+    .about-text {
+        max-width: 354px;
+    }
+
+    .about-picture {
+        transform: translateY(155px);
+    }
+}
+
+/* =======/ABOUT-DESKTOP========= */
+/* =======/ABOUT========= */
