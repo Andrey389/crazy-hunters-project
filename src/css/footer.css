@@ -54,6 +54,18 @@
   gap: 8px;
   margin-bottom: 40px;
 }
+.footer-social-link {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  fill: #fbfbfb;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  fill: rgba(251, 251, 251, 0.8);
+}
 .footer-title-slogan {
   width: 235px;
   margin: auto;
