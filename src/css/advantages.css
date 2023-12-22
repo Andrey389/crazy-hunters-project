@@ -1,0 +1,97 @@
+/*-------MOBILE ADVANTAGE SECTION----------------*/
+
+.advantages-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    gap: 40px;
+    border-radius: 24px;
+    background-color: #1B414B;
+    padding: 80px 20px;
+    list-style: none;   
+}
+
+.advantages-number {
+    position: relative;
+    color: #FBFBFB;
+    font-size: 28px;     
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    border-bottom: 2px solid rgba(251, 251, 251, .1);
+    padding-bottom: 18px;
+}
+
+.advantages-text {
+    max-width: 292px;
+    color: #FBFBFB;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    opacity: 0.8;
+    padding-top: 18px;
+}
+
+
+/*----------TABLET ADVANTAGE SECTION-------------------------*/
+
+@media screen and (min-width: 768px) {
+
+    .advantages-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 32px;
+        row-gap: 44px;
+        max-width: 704px;
+        padding: 90px 32px;
+    }
+
+    .advantages-item {
+        flex-basis: calc((100% - 32px) /2) ;
+    }
+
+    .advantages-number {        
+        font-size: 32px;
+    }
+
+    .advantages-text {   
+        font-size: 13px;
+        line-height: 1.15;
+    }
+
+
+}
+
+/*----------DESKTOP ADVANTAGES SECTION-------------------*/
+
+@media screen and (min-width: 1280px) {
+    .advantages-container {
+        display: flex;
+        column-gap: 32px;
+        flex-basis: calc((100% - 32px) /2);
+    }
+
+    .advantages-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 44px;
+        max-width: 716px;
+        padding: 90px 50px;
+    }
+
+    .advantages-item {
+        flex-basis: calc((100% - 44px) /2);
+    }
+}
