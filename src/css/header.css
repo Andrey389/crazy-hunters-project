@@ -73,6 +73,12 @@
 /* ================== Tablet ================ */
 @media screen and (min-width: 768px) {
   .header {
+    position: fixed;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 100;
   }
 
   .header-nav-container {
