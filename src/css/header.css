@@ -1,6 +1,12 @@
 /* ================== Mobile ================ */
 @media screen and (max-width: 767px) {
   .header {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 100;
   }
 
   .header-nav-container {
@@ -11,6 +17,9 @@
     background: #fbfbfb;
     border: 1px solid #fbfbfb;
     border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
   }
   .header-logo {
     padding: 12px 0;
@@ -129,6 +138,11 @@
     background-color: #1b414b;
   }
   .header-social-link {
+    /* fill: #1B414B; */
+  }
+  .header-social-link:hover,
+  .header-social-link:focus {
+    /* fill: #062730; */
   }
   .header-social-icon {
   }
