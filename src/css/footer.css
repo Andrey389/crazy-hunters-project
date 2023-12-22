@@ -28,6 +28,12 @@
   width: 66px;
   height: 40px;
 }
+.footer-navigation-item:active {
+  background-color: #fbfbfb;
+}
+.footer-navigation-link:active {
+  color: #1b414b;
+}
 .footer-navigation-link {
   display: flex;
   justify-content: center;
