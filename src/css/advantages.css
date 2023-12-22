@@ -11,7 +11,7 @@
     flex-direction: column;
     padding-top: 80px;
     padding-bottom: 40px;
-    column-gap: 40px;
+    gap: 40px;
     border-radius: 24px;
     background-color: #1B414B;
     padding: 80px 20px;
@@ -27,7 +27,7 @@
     letter-spacing: -0.05em;
     border-bottom: 2px solid rgba(251, 251, 251, .1);
     padding-bottom: 18px;
-     }
+}
 
 .advantages-text {
     max-width: 292px;
@@ -87,13 +87,11 @@
         flex-wrap: wrap;
         justify-content: center;
         column-gap: 44px;
-        row-gap: 44px;
         max-width: 716px;
         padding: 90px 50px;
     }
 
     .advantages-item {
         flex-basis: calc((100% - 44px) /2);
-         }
-         
+    }
 }
