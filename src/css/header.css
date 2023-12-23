@@ -1,6 +1,6 @@
 /* ================== Mobile ================ */
 @media screen and (max-width: 767px) {
-  .header {
+  .container-header {
     position: fixed;
     top: 20px;
     left: 50%;
