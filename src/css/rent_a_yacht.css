@@ -5,15 +5,10 @@ img{
 
 /* ===========================MOBILE VERSION==============================*/
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) { */
     .rent-a-yacht{
-        background-color: #0E1823;
         padding: 40px 0;
         }
-
-    .container{
-        max-width: 375px;
-    }
 
     .rent-a-yacht-title{
         color: #FBFBFB;
@@ -22,14 +17,8 @@ img{
         font-weight: 500;
         line-height: 1.0;
         letter-spacing: -0.02em;
-        margin-left: 20px;
         text-align: left;
         margin-bottom: 40px;
-    }
-
-    .rent-a-yacht-form{
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     .rent-a-yacht-list{
@@ -103,7 +92,7 @@ img{
         justify-content: center;
         align-items: center;
         margin-bottom: 80px;
-  
+
         color: #FBFBFB;
         font-family: Inter;
         font-size: 14px;
@@ -123,9 +112,10 @@ img{
     }
 
     .rent-a-yacht-picture{
+        width: 100%;
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
     } 
-}
+/* } */
