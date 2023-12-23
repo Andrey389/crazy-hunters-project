@@ -12,8 +12,6 @@
 .advantages-list {
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
-    padding-bottom: 40px;
     gap: 40px;
     border-radius: 24px;
     background-color: #1B414B;
@@ -52,6 +50,9 @@
 /*----------TABLET ADVANTAGE SECTION-------------------------*/
 
 @media screen and (min-width: 768px) {
+    .container {
+        padding: 0;
+    }
     
     .advantages-container {
         display: flex;
