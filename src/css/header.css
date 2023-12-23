@@ -138,11 +138,11 @@
     background-color: #1b414b;
   }
   .header-social-link {
-    /* fill: #1B414B; */
+    fill: #1B414B;
   }
   .header-social-link:hover,
   .header-social-link:focus {
-    /* fill: #062730; */
+    fill: #062730;
   }
   .header-social-icon {
   }
