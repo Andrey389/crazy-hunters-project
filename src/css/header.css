@@ -68,7 +68,7 @@
     align-items: center;
     justify-content: center;
     border: none;
-    fill: #1b414b;
+    stroke: #1b414b;
   }
   .header-social {
     display: none;
