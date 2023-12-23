@@ -58,7 +58,17 @@
   .current {
     background: #1b414b;
   }
+
   .mob-menu-btn {
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    fill: #1b414b;
   }
   .header-social {
     display: none;
@@ -89,6 +99,9 @@
     background: #fbfbfb;
     border: 1px solid #fbfbfb;
     border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
   }
   .header-logo {
     padding: 12px 0;
@@ -130,10 +143,16 @@
     text-transform: uppercase;
 
     color: #fbfbfb;
+    background-color: #1b414b80;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .current {
+  .current:hover,
+  .current:focus {
+    background-color: #1b414b;
+  }
+  /* .current {
     background: #1b414b;
-  }
+  } */
   .mob-menu-btn {
   }
   .header-social {
