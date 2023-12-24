@@ -144,8 +144,52 @@
 } */
 
 @media screen and (min-width: 768px){
-    .yacht-kartka-tablet{
+    .yacht-card{
+        width: calc((100% - 32px) / 2);
+    }
+
+    .yacht-card-tablet{
+        display: block;
+        background: #FBFBFB;
+        border-radius: 15px;
+        padding: 16px;
+        margin-bottom: 40px;
+        width: calc((100% - 32px) / 2);
+    }
+
+    .cards{
         display: flex;
-        width: 336px;
+        flex-direction: row;
+        gap: 32px;
+    }
+}
+
+@media  screen and (min-width: 1280px) {
+    .yacht-card{
+        min-width: calc((100% - 25px) / 3);
+    }
+
+    .yacht-card-tablet{
+        display: block;
+        background: #FBFBFB;
+        border-radius: 15px;
+        padding: 16px;
+        margin-bottom: 40px;
+        min-width: calc((100% - 25px) / 3);
+    }
+
+    .yacht-card-desktop{
+        display: block;
+        background: #FBFBFB;
+        border-radius: 15px;
+        padding: 16px;
+        margin-bottom: 40px;
+        min-width: calc((100% - 25px) / 3);
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
     }
 }
