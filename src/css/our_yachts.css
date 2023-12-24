@@ -1,7 +1,7 @@
 .our-yachts {
     display: flex;
     flex-direction: column;
-    padding: 80px 0;
+    padding-top: 80px;
 }
 
 .our-yachts-title {
@@ -21,7 +21,7 @@
     border-radius: 15px;
     padding: 16px;
     margin-bottom: 40px;
-    min-width: 334px;
+    max-width: 334px;
 }
 
 .yacht-card-img {
@@ -145,6 +145,7 @@
 
 @media screen and (min-width: 768px){
     .yacht-card{
+        max-width: 336px;
         width: calc((100% - 32px) / 2);
     }
 
@@ -160,13 +161,15 @@
     .cards{
         display: flex;
         flex-direction: row;
+        justify-content: center;
         gap: 32px;
     }
 }
 
 @media  screen and (min-width: 1280px) {
     .yacht-card{
-        min-width: calc((100% - 25px) / 3);
+        max-width: 377px;
+        width: calc((100% - 50px) / 3);
     }
 
     .yacht-card-tablet{
@@ -175,7 +178,7 @@
         border-radius: 15px;
         padding: 16px;
         margin-bottom: 40px;
-        min-width: calc((100% - 25px) / 3);
+        width: calc((100% - 25px) / 3);
     }
 
     .yacht-card-desktop{
@@ -184,7 +187,7 @@
         border-radius: 15px;
         padding: 16px;
         margin-bottom: 40px;
-        min-width: calc((100% - 25px) / 3);
+        width: calc((100% - 50px) / 3);
     }
 
     .cards{
