@@ -37,6 +37,15 @@
 
 .yacht-kartka {
     padding: 16px;
+    width: 334px;
+}
+
+.yacht-kartka-tablet{
+    display: none;
+}
+
+.yacht-kartka-desktop{
+    display: none;
 }
 
 .top-description {
@@ -130,4 +139,11 @@
     line-height: 1.2;
     /* 128.571% */
     letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px){
+    .yacht-kartka-tablet{
+        display: flex;
+        width: 336px;
+    }
 }
