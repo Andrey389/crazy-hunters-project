@@ -1,41 +1,44 @@
 <section class="rent-a-yacht">
     <div class="rent-a-yacht-section container">
-        <h2 class="rent-a-yacht-title">Rent a yacht now</h2>
-    <form class="rent-a-yacht-form">
-        <div class="rent-a-yacht-list">
-            <label class="rent-a-yacht-label-form">
-                <input class="rent-a-yacht-person-form" name="rent-a-yacht-full-name-person-form" type="text" placeholder="Full Name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" required/>
-              </label>
+        <div class="rent-a-yacht-blank">
+            <h2 class="rent-a-yacht-title">Rent a yacht now</h2>
+            <form class="rent-a-yacht-form">
+                <div class="rent-a-yacht-list">
+                    <label class="rent-a-yacht-label-form">
+                        <input class="rent-a-yacht-person-form" name="rent-a-yacht-full-name-person-form" type="text" placeholder="Full Name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" required/>
+                      </label>
+                </div>
+                <div class="rent-a-yacht-list">
+                    <label class="rent-a-yacht-label-form">
+                        <input class="rent-a-yacht-person-form" name="rent-a-yacht-e-mail-person-form" type="email" placeholder="Email" required/>
+                      </label>
+                </div>
+                <div class="rent-a-yacht-list">
+                    <label class="rent-a-yacht-label-form">
+                        <input class="rent-a-yacht-person-form" name="rent-a-yacht-phone-number-person-form" type="tel" placeholder="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required/>
+                      </label>
+                </div>
+                <div class="rent-a-yacht-textaria">
+                    <label class="rent-a-yacht-client-label" for="user-comment">
+                    <textarea class="rent-a-yacht-client-comment" name="user-comment" id="user-comment" placeholder="Comment" required></textarea>
+                    </label>
+                </div>
+                <button class="rent-a-yacht-client-submit-btn" type="submit">Send</button>
+            </form>
         </div>
-        <div class="rent-a-yacht-list">
-            <label class="rent-a-yacht-label-form">
-                <input class="rent-a-yacht-person-form" name="rent-a-yacht-e-mail-person-form" type="email" placeholder="Email" required/>
-              </label>
-        </div>
-        <div class="rent-a-yacht-list">
-            <label class="rent-a-yacht-label-form">
-                <input class="rent-a-yacht-person-form" name="rent-a-yacht-phone-number-person-form" type="tel" placeholder="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required/>
-              </label>
-        </div>
-        <div class="rent-a-yacht-textaria">
-            <label class="rent-a-yacht-client-label" for="user-comment">
-            <textarea class="rent-a-yacht-client-comment" name="user-comment" id="user-comment" placeholder="Comment" required></textarea>
-            </label>
-        </div>
-        <button class="rent-a-yacht-client-submit-btn" type="submit">Send</button>
-    </form>
-    <div class="rent-a-yacht-picture">
-      <picture>
-        <source srcset="../img/images-rent-a-yacht/photo-rent-a-yacht-mobile.jpg 1x, ../img/images-rent-a-yacht/photo-rent-a-yacht-mobile@2x.jpg 2x" media="(max-width: 767px)"/>
-        <source srcset="../img/images-rent-a-yacht/photo-rent-a-yacht-tablet.jpg 1x, ../img/images-rent-a-yacht/photo-rent-a-yacht-tablet@2x.jpg 2x"  media="(min-width: 768px)"/>
-        <source srcset="../img/images-rent-a-yacht/photo-rent-a-yacht-desctop.jpg 1x, ../img/images-rent-a-yacht/photo-rent-a-yacht-desctop@2x.jpg 2x"  media="(min-width: 1280px)"/>
-      <img
-        src="../img/images-rent-a-yacht/photo-rent-a-yacht-mobile.jpg"
-        alt="a yacht in the mountains"
-        width="335"
-        height="412"
-      />
-      </picture>
-    </div>
+        
+        <div class="rent-a-yacht-picture">
+            <picture>
+              <source srcset="../img/images-rent-a-yacht/photo-rent-a-yacht-mobile.jpg 1x, ../img/images-rent-a-yacht/photo-rent-a-yacht-mobile@2x.jpg 2x" media="(max-width: 767px)"/>
+              <source srcset="../img/images-rent-a-yacht/photo-rent-a-yacht-tablet.jpg 1x, ../img/images-rent-a-yacht/photo-rent-a-yacht-tablet@2x.jpg 2x"  media="(min-width: 768px)"/>
+              <source srcset="../img/images-rent-a-yacht/photo-rent-a-yacht-desctop.jpg 1x, ../img/images-rent-a-yacht/photo-rent-a-yacht-desctop@2x.jpg 2x"  media="(min-width: 1280px)"/>
+            <img
+              src="../img/images-rent-a-yacht/photo-rent-a-yacht-mobile.jpg"
+              alt="a yacht in the mountains"
+              width="768"
+              height="534"
+            />
+            </picture>
+          </div>
     </div>
 </section>
