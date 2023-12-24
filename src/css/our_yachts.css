@@ -21,6 +21,7 @@
     border-radius: 15px;
     padding: 16px;
     margin-bottom: 40px;
+    min-width: 334px;
 }
 
 .yacht-card-img {
@@ -28,29 +29,26 @@
 }
 
 .yacht-card-parameters {
-
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    /* gap: 114px; */
+    gap: 114px;
 }
 
 .yacht-kartka {
     padding: 16px;
-    width: 334px;
 }
 
-.yacht-kartka-tablet{
+.yacht-card-tablet{
     display: none;
 }
 
-.yacht-kartka-desktop{
+.yacht-card-desktop{
     display: none;
 }
 
 .top-description {
     display: flex;
-    justify-content: space-between;
+    gap: 125px;
     align-items: center;
     margin-bottom: 32px;
 }
@@ -140,6 +138,10 @@
     /* 128.571% */
     letter-spacing: -0.02em;
 }
+
+/* .lorem{
+    color:#fff;
+} */
 
 @media screen and (min-width: 768px){
     .yacht-kartka-tablet{
