@@ -43,8 +43,8 @@
 }
 
 .advantages-image {
-    width: 100%;
-    height: 100%;
+    width: 335px;
+    height: 424px;
 }
 
 /*----------TABLET ADVANTAGE SECTION-------------------------*/
@@ -85,7 +85,10 @@
         line-height: 1.15;
     }
 
-
+    .advantages-image {
+        width: 704px;
+        margin: 0 32px;
+    }
 }
 
 /*----------DESKTOP ADVANTAGES SECTION-------------------*/
@@ -94,7 +97,6 @@
     .advantages-container {
         display: flex;
         flex-direction: row;
-        align-items: center;
         row-gap: 32px;
     }
 
@@ -113,8 +115,11 @@
     }
 
     .advantages-image {
-        min-width: 432px;
+        width: 432px;
+        margin: 0;
     }
 
-
+    .advantages-list {   
+        margin: 0 32px;
+    }
 }
