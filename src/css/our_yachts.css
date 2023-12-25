@@ -22,11 +22,8 @@
     border-radius: 15px;
     padding: 16px;
     margin-bottom: 40px;
-<<<<<<< Updated upstream
-    max-width: 280px;
     margin-right: auto;
     margin-left: auto;
-=======
     max-width: 334px;
 }
 
@@ -42,7 +39,6 @@
 
 .yacht-kartka {
     padding: 16px;
->>>>>>> Stashed changes
 }
 
 .yacht-card-tablet{
