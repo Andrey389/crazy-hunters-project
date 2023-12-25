@@ -2,12 +2,9 @@
 
 .hero-section {
     display: block;
-    max-width: 375px;
     width: 100%;
     padding-top: 260px;
     padding-bottom: 243px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +28,7 @@
 }
 
 .hero-title {
-    width: 335px;
+    width: 100%;
     margin: 0 0 24px 0;
     color: #FBFBFB;
     font-size: 32px;
@@ -44,7 +41,7 @@
 
 @media screen and (min-width: 768px) {
     .hero-title {
-        width: 704px;
+        width: 100%;
         height: auto;
         font-size: 70px;
         letter-spacing: -1.4px;
@@ -79,7 +76,7 @@
         margin-bottom: 48px;
         font-size: 16px;
         line-height: 1.4;
-        width: 597px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }

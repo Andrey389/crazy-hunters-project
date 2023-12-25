@@ -124,11 +124,6 @@
 
 /*=====================TABLET VERSION===================*/
 @media screen and (min-width: 768px){
-    .container{
-        max-width: 768px;
-        padding-left: 148px;
-        padding-right: 148px;
-    }
     .rent-a-yacht{
         background-color: #0E1823;
         padding: 75px 0;
@@ -213,9 +208,6 @@
 }
 /*=====================DESCTOP VERSION===================*/
 @media screen and (min-width: 1280px){
-    .container{
-        max-width: 1440px;
-    }
 
     .rent-a-yacht-section{
         display: flex;
