@@ -1,8 +1,9 @@
 /*-------MOBILE ADVANTAGE SECTION----------------*/
 .advantages-section {
-    padding-top: 150px;
-    padding-bottom: 75px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
+
 .advantages-container {
     display: flex;
     flex-direction: column;
@@ -43,8 +44,8 @@
 }
 
 .advantages-image {
-    width: 100%;
-    height: 100%;
+    width: 335px;
+    height: 424px;
 }
 
 /*----------TABLET ADVANTAGE SECTION-------------------------*/
@@ -54,6 +55,12 @@
         padding: 0;
     }
     
+    .advantages-section {
+        padding-top: 150px;
+        padding-bottom: 75px;
+    }
+
+
     .advantages-container {
         display: flex;
         flex-direction: column;
@@ -85,7 +92,10 @@
         line-height: 1.15;
     }
 
-
+    .advantages-image {
+        width: 704px;
+        margin: 0 32px;
+    }
 }
 
 /*----------DESKTOP ADVANTAGES SECTION-------------------*/
@@ -94,7 +104,6 @@
     .advantages-container {
         display: flex;
         flex-direction: row;
-        align-items: center;
         row-gap: 32px;
     }
 
@@ -113,8 +122,10 @@
     }
 
     .advantages-image {
-        min-width: 432px;
+        width: 432px;
     }
 
-
+    .advantages-list {   
+        margin: 0 32px;
+    }
 }
