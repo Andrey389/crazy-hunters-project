@@ -16,26 +16,14 @@
     margin-bottom: 40px;
 }
 
-.yacht-card {
+.yacht-card, .yacht-card-tablet, .yacht-card-desktop {
     background: #FBFBFB;
     border-radius: 15px;
     padding: 16px;
     margin-bottom: 40px;
-    min-width: 334px;
-}
-
-.yacht-card-img {
-    margin-bottom: 32px;
-}
-
-.yacht-card-parameters {
-    display: flex;
-    flex-direction: row;
-    gap: 114px;
-}
-
-.yacht-kartka {
-    padding: 16px;
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .yacht-card-tablet{
@@ -46,9 +34,23 @@
     display: none;
 }
 
+.yacht-card-img {
+    margin-bottom: 32px;
+}
+
+.yacht-card-parameters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.yacht-kartka {
+    padding: 16px;
+}
+
 .top-description {
     display: flex;
-    gap: 125px;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 32px;
 }
@@ -139,57 +141,31 @@
     letter-spacing: -0.02em;
 }
 
-/* .lorem{
-    color:#fff;
-} */
-
 @media screen and (min-width: 768px){
-    .yacht-card{
-        width: calc((100% - 32px) / 2);
-    }
-
-    .yacht-card-tablet{
-        display: block;
-        background: #FBFBFB;
-        border-radius: 15px;
-        padding: 16px;
-        margin-bottom: 40px;
-        width: calc((100% - 32px) / 2);
-    }
-
-    .cards{
+    
+    .yacht-card-list{
         display: flex;
         flex-direction: row;
         gap: 32px;
     }
-}
-
-@media  screen and (min-width: 1280px) {
-    .yacht-card{
-        min-width: calc((100% - 25px) / 3);
+    
+    .yacht-card, .yacht-card-tablet{
+        /* width: calc((100% - 32px) / 2); */
+        max-width: 336px;
     }
 
     .yacht-card-tablet{
-        display: block;
-        background: #FBFBFB;
-        border-radius: 15px;
-        padding: 16px;
-        margin-bottom: 40px;
-        min-width: calc((100% - 25px) / 3);
+        display: list-item;
+    }
+
+}
+
+@media  screen and (min-width: 1280px) {
+    .yacht-card, .yacht-card-tablet, .yacht-card-desktop{
+        max-width: 377px;
     }
 
     .yacht-card-desktop{
-        display: block;
-        background: #FBFBFB;
-        border-radius: 15px;
-        padding: 16px;
-        margin-bottom: 40px;
-        min-width: calc((100% - 25px) / 3);
-    }
-
-    .cards{
-        display: flex;
-        flex-direction: row;
-        gap: 25px;
+        display: list-item;
     }
 }
