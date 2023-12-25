@@ -3,6 +3,7 @@ body {
     background-color: #0E1823;
     background-image: url(../img/images-hero/hero-photo-mobile.jpg);
     background-repeat: no-repeat;
+    background-position: center top;
 }
 
 .container {
@@ -32,7 +33,7 @@ body {
         background-image: url(../img/images-hero/hero-photo-tablet.jpg);
     }
     .container {
-        max-width: 704px;
+        max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
     }
@@ -43,7 +44,7 @@ body {
         background-image: url(../img/images-hero/hero-photo-desctop.jpg);
     }
     .container {
-        max-width: 1180px;
+        max-width: 1280px;
         padding-left: 50px;
         padding-right: 50px;
     }
