@@ -14,6 +14,7 @@
     /* 100% */
     letter-spacing: -0.56px;
     margin-bottom: 40px;
+    max-width: 319px;
 }
 
 .yacht-card, .yacht-card-tablet, .yacht-card-desktop {
@@ -158,6 +159,23 @@
         display: list-item;
     }
 
+    .our-yachts-title{
+        max-width: 645px;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1;
+        /* 100% */
+        letter-spacing: -0.96px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .our-yachts-button{
+        max-width: 179px;
+        max-height: 52px;
+    }
+
 }
 
 @media  screen and (min-width: 1280px) {
@@ -167,5 +185,9 @@
 
     .yacht-card-desktop{
         display: list-item;
+    }
+
+    .our-yachts-title{
+        max-width: 714px;
     }
 }
