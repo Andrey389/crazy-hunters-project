@@ -25,7 +25,7 @@
 .footer-navigation-item {
   border-radius: 8px;
   background: rgba(251, 251, 251, 0.3);
-  width: 66px;
+  min-width: 66px;
   height: 40px;
 }
 .footer-navigation-item:active {
@@ -95,13 +95,14 @@
 @media screen and (min-width: 768px) {
   .footer-wrapper {
     max-width: 734px;
-    padding: 50px 16px 23px 16px;
+    padding: 50px 48px 23px 48px;
   }
 
   .footer-container {
     display: flex;
+    gap: 91px;
     align-items: baseline;
-    justify-content: space-between;
+
     margin-bottom: 96px;
   }
   .footer-main-navigation {
@@ -112,7 +113,7 @@
     font-size: 20px;
   }
   .footer-navigation-item {
-    width: 91px;
+    min-width: 91px;
   }
   .footer-navigation-link:hover,
   .footer-navigation-link:focus {
@@ -141,10 +142,13 @@
 @media screen and (min-width: 1280px) {
   .footer-wrapper {
     max-width: 1230px;
-    padding: 50px 25px 20px 25px;
+    padding: 50px 75px 20px 75px;
   }
   .footer-main-navigation {
     gap: 326px;
+  }
+  .footer-container {
+    gap: 311px;
   }
   .footer-title-slogan {
     width: 640px;
