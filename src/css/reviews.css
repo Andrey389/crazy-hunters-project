@@ -1,8 +1,5 @@
 .reviews-wrapper {
-  background-image: url(./img/image-2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  
   padding: 0 20px;
   margin-bottom: 80px;
 }
@@ -115,6 +112,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+  .reviews-wrapper{
+    width: 1180;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+  }
   .reviews-title {
     width: 854px;
     font-size: 48px;
@@ -129,16 +133,18 @@
     margin-bottom: 75px;
   }
 
+   .reviews-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 26px;
+    width: calc((100% - 26px) / 2);
+  }
+
   .reviews-item {
     width: 376px;
     padding-left: 28px;
     padding-right: 28px;
   }
 
-  .reviews-list {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 26px;
-    width: calc((100% - 26px) / 2);
-  }
+ 
 }
