@@ -126,20 +126,20 @@
 @media screen and (min-width: 768px){
     .container{
         max-width: 768px;
+        padding-left: 148px;
+        padding-right: 148px;
     }
     .rent-a-yacht{
         background-color: #0E1823;
-        padding: 32px 0;
+        padding: 75px 0;
         }
 
     .rent-a-yacht-title{
         font-size: 48px;
-        margin-left: 148px;
         margin-bottom: 50px;
     }
 
     .rent-a-yacht-form{
-        margin-left: 148px;
         margin-right: auto;
     }
 
@@ -169,7 +169,7 @@
     }
 
     .rent-a-yacht-client-comment{
-        width: 472px;
+        width: 473px;
         height: 116px;
         border-radius: 12px;
         padding: 18px 18px;
@@ -270,7 +270,8 @@
     .rent-a-yacht-client-comment{
         width: 472px;
         height: 116px;
-        padding: 18px 75px 18px 75px;
+        padding-top: 18px;
+        padding-left: 18px;
     }
 
     .rent-a-yacht-client-submit-btn{
