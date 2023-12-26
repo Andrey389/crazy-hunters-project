@@ -1,7 +1,6 @@
 .our-yachts {
     display: flex;
     flex-direction: column;
-    padding: 80px 0;
 }
 .our-yachts-title {
     color: #FBFBFB;

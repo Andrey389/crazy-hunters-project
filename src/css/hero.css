@@ -3,8 +3,8 @@
 .hero-section {
     display: block;
     width: 100%;
-    padding-top: 260px;
-    padding-bottom: 243px;
+    margin-top: 260px;
+    margin-bottom: 243px;
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
