@@ -22,13 +22,13 @@
 }
 
 .advantages-number {
+    display: block;
     position: relative;
     color: #FBFBFB;
     font-size: 28px;     
     font-weight: 500;
     line-height: 1;
-    letter-spacing: -0.05em;
-    border-bottom: 2px solid rgba(251, 251, 251, .1);
+    
     padding-bottom: 18px;
 }
 
@@ -41,6 +41,8 @@
     letter-spacing: -0.02em;
     opacity: 0.8;
     padding-top: 18px;
+    letter-spacing: -0.05em;
+    border-top: 2px solid rgba(251, 251, 251, .1);
 }
 
 .advantages-image {
@@ -120,7 +122,4 @@
         max-width: 432px;
     }
 
-    .advantages-list {   
-        margin: 0 32px;
-    }
 }

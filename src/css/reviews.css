@@ -1,4 +1,5 @@
-.reviews-wrapper {
+.reviews-wrapper{
+  margin-top: 40px;
   margin-bottom: 80px;
 }
 .reviews-title {
@@ -37,7 +38,7 @@
   padding: 32px 8px;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  
   flex-shrink: 0;
   border-radius: 24px;
   background: #fbfbfb;
@@ -80,6 +81,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .reviews-wrapper{
+    margin-top: 75px;
+    margin-bottom: 150px;
+  }
   .reviews-title {
     width: 704px;
     font-size: 48px;
@@ -107,6 +112,7 @@
 @media screen and (min-width: 1280px) {
 
   .reviews-wrapper{
+    margin-top: 75px;
     margin-bottom: 150px;
   }
   .reviews-title {

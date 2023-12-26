@@ -1,6 +1,5 @@
 .rent-a-yacht-imges {
     max-width: 100%;
-    height: auto;
     border-radius: 24px;
 }
 
@@ -92,7 +91,6 @@
         cursor: pointer;
         justify-content: center;
         align-items: center;
-        margin-bottom: 80px;
 
         color: #FBFBFB;
         font-family: Inter;
@@ -181,7 +179,6 @@
         cursor: pointer;
         justify-content: center;
         align-items: center;
-        margin-bottom: 100px;
 
         color: #FBFBFB;
         font-family: Inter;
@@ -208,7 +205,6 @@
 }
 /*=====================DESCTOP VERSION===================*/
 @media screen and (min-width: 1280px){
-
     .rent-a-yacht-section{
         display: flex;
         gap: 50px;
@@ -277,7 +273,6 @@
         cursor: pointer;
         justify-content: center;
         align-items: center;
-        margin-bottom: 100px;
 
         color: #FBFBFB;
         font-family: Inter;
