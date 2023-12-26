@@ -94,7 +94,7 @@
 
     .advantages-image {
         width: 704px;
-        margin: 0 32px;
+        margin: 0 auto;
     }
 }
 
@@ -102,6 +102,7 @@
 
 @media screen and (min-width: 1280px) {
     .advantages-container {
+
         display: flex;
         flex-direction: row;
         row-gap: 32px;
@@ -115,6 +116,7 @@
         column-gap: 44px;
         max-width: 716px;
         padding: 82px 50px;
+        margin: 0 auto;
     }
 
     .advantages-item {
@@ -125,7 +127,4 @@
         width: 432px;
     }
 
-    .advantages-list {   
-        margin: 0 32px;
-    }
 }
